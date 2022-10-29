@@ -1,0 +1,81 @@
+﻿<Window x:Class="Av30_PalavrasCruzadas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Av30_PalavrasCruzadas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1000">
+    <Grid>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="134,312,0,0" VerticalAlignment="Top" Height="30" Width="32" Click="click1"/>
+        <TextBox x:Name="txtCelular7" HorizontalAlignment="Left" Margin="172,517,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" MaxLength="1"/>
+        <TextBox x:Name="txtCelular6" HorizontalAlignment="Left" Margin="172,483,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCelular5" HorizontalAlignment="Left" Margin="172,449,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador3" HorizontalAlignment="Left" Margin="248,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCelular2" HorizontalAlignment="Left" Margin="172,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCelular3" HorizontalAlignment="Left" Margin="172,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCelular4" HorizontalAlignment="Left" Margin="172,415,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador2" HorizontalAlignment="Left" Margin="210,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador1" HorizontalAlignment="Left" Margin="172,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador4" HorizontalAlignment="Left" Margin="286,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador5" HorizontalAlignment="Left" Margin="324,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador6" HorizontalAlignment="Left" Margin="362,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador7" HorizontalAlignment="Left" Margin="400,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador8" HorizontalAlignment="Left" Margin="438,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador9" HorizontalAlignment="Left" Margin="476,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtComputador10" HorizontalAlignment="Left" Margin="515,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="172,277,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click2"/>
+        <TextBox x:Name="txtCanguru4" HorizontalAlignment="Left" Margin="514,244,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCanguru3" HorizontalAlignment="Left" Margin="514,210,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia10" HorizontalAlignment="Left" Margin="514,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCanguru1" HorizontalAlignment="Left" Margin="514,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCanguru6" HorizontalAlignment="Left" Margin="515,278,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="28" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="514,107,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click4"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="134,177,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click3"/>
+        <TextBox x:Name="txtCarro1" HorizontalAlignment="Left" Margin="591,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCocada2" HorizontalAlignment="Left" Margin="553,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCocada4" HorizontalAlignment="Left" Margin="629,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCocada6" HorizontalAlignment="Left" Margin="705,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txDente1" HorizontalAlignment="Left" Margin="667,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina3" HorizontalAlignment="Left" Margin="780,211,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="362,277,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click5"/>
+        <TextBox x:Name="txtTempo2" HorizontalAlignment="Left" Margin="362,346,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTempo3" HorizontalAlignment="Left" Margin="362,380,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTempo4" HorizontalAlignment="Left" Margin="362,414,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTempo5" HorizontalAlignment="Left" Margin="362,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina2" HorizontalAlignment="Left" Margin="780,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina4" HorizontalAlignment="Left" Margin="780,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina5" HorizontalAlignment="Left" Margin="781,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina6" HorizontalAlignment="Left" Margin="781,313,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina7" HorizontalAlignment="Left" Margin="781,347,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina8" HorizontalAlignment="Left" Margin="781,381,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="780,108,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click6"/>
+        <TextBox x:Name="txtMesa3" HorizontalAlignment="Left" Margin="666,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMesa2" HorizontalAlignment="Left" Margin="628,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMesa1" HorizontalAlignment="Left" Margin="591,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="552,446,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click7"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="667,108,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click8"/>
+        <TextBox x:Name="txDente2" HorizontalAlignment="Left" Margin="667,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txDente3" HorizontalAlignment="Left" Margin="667,211,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txDente4" HorizontalAlignment="Left" Margin="667,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txDente5" HorizontalAlignment="Left" Margin="667,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMesa4" HorizontalAlignment="Left" Margin="704,448,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="591,108,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click9"/>
+        <TextBox x:Name="txtCarro2" HorizontalAlignment="Left" Margin="591,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCarro3" HorizontalAlignment="Left" Margin="591,211,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCarro4" HorizontalAlignment="Left" Margin="591,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtCarro5" HorizontalAlignment="Left" Margin="591,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia4" HorizontalAlignment="Left" Margin="286,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia5" HorizontalAlignment="Left" Margin="324,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia6" HorizontalAlignment="Left" Margin="362,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia7" HorizontalAlignment="Left" Margin="400,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia8" HorizontalAlignment="Left" Margin="438,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia9" HorizontalAlignment="Left" Margin="476,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia3" HorizontalAlignment="Left" Margin="248,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia2" HorizontalAlignment="Left" Margin="210,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <Button x:Name="btn10" Content="10" HorizontalAlignment="Left" Margin="476,141,0,0" VerticalAlignment="Top" Height="30" Width="33" Click="click10"/>
+        <TextBox x:Name="txtCanguru7" HorizontalAlignment="Left" Margin="514,347,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtTecnologia1" HorizontalAlignment="Left" Margin="172,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="33" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+        <TextBox x:Name="txtMedicina1" HorizontalAlignment="Left" Margin="780,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="32" Height="29" TextAlignment="Center" PreviewKeyDown="verifica" MaxLength="1"/>
+    </Grid>
+</Window>
